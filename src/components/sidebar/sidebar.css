@@ -1,0 +1,35 @@
+.sidebar {
+  width: 15rem;
+}
+.sidebar ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.sidebar ul li {
+  list-style: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+.sidebar ul li:hover {
+  background-color: #f8f9fc;
+}
+.sidebaritem {
+  display: inline-flex;
+  align-items: center;
+}
+.sidebaritem span.sidebarName {
+  color: #888b8c;
+  margin-left: 1rem;
+  font-size: 1.08rem;
+}
+.sidebaritem.active span.sidebarName,
+.sidebaritem.active span.icon svg {
+  color: #000;
+}
+.sidebaritem.active span.sidebarName {
+  font-weight: 600;
+}
+.sidebaritem span.icon svg {
+  color: #cececc;
+  font-size: 1.75rem;
+}

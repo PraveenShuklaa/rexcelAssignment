@@ -1,0 +1,62 @@
+header {
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+}
+header > .container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+.brand h2 {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  font-weight: 700;
+}
+.brand p {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.075rem;
+  line-height: 1.1rem;
+  font-family: monospace;
+}
+.brand_menu {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  margin-left: 3rem;
+  color: #fff;
+}
+.menu svg {
+  font-size: 2.2rem;
+}
+.country_note {
+  display: flex;
+  align-items: center;
+}
+.country {
+  display: flex;
+}
+.country div {
+  background-color: #44b9ff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+}
+.country div svg {
+  color: #fff;
+}
+.country_note button,
+.country_note button:hover {
+  background-color: #fff;
+  color: #000;
+  margin: 0 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0;
+}

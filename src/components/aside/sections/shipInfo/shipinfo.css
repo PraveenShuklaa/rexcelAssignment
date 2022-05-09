@@ -1,0 +1,90 @@
+.shipInfoHead {
+  padding: 0.75rem;
+  border-bottom: 1px solid #c5c7ca;
+  display: flex;
+  justify-content: space-between;
+}
+.shipInfoHeadLeft {
+  display: flex;
+  align-items: center;
+}
+.shipInfoHeadLeft p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+.shipInfoHeadLeft span {
+  margin: 0 0.5rem;
+}
+.shipInfoHeadLeft svg {
+  color: #1aa3f4;
+}
+.shipInfoHeadRight {
+  display: flex;
+}
+.shipInfoHeadRight div {
+  margin: 0 0.75rem;
+}
+.shipInfoHeadRight div p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+.shipInfoHeadRight div span {
+  font-size: 0.75rem;
+  color: #737373;
+}
+.shipInfoBody {
+  padding: 0.5rem;
+}
+.tabPanel {
+  display: flex;
+  border: 1px solid #545cd8;
+  border-radius: 1.5rem;
+  padding: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.tab {
+  flex-grow: 1;
+  text-align: center;
+  padding: 0.2rem;
+  color: #545cd8;
+  border-radius: 1.5rem;
+}
+.tab:hover {
+  background-color: #545dd83a;
+}
+.tab.active {
+  background-color: #545cd8;
+  color: #fff;
+  border-radius: 1.5rem;
+}
+.tabBody .row > div {
+  margin-bottom: 0.5rem;
+}
+.tabBody label {
+  color: #737373;
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+.tabBody .col-4 div {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.tabBody .col-4 div input {
+  padding-right: 1.5rem;
+}
+.tabBody .col-4 div span {
+  position: absolute;
+  right: 0.5rem;
+}
+.tabBody .form-check-input {
+  margin-right: 0.5rem;
+}
+.save {
+  background-color: #6c757e;
+  color: #fff;
+  border: 0;
+  border-radius: 0.5rem;
+  line-height: 2rem;
+}

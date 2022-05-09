@@ -1,0 +1,92 @@
+.accountHead,
+.accountCardHead {
+  padding: 0.75rem;
+  border-bottom: 1px solid #c5c7ca;
+}
+.accountHeadName {
+  display: flex;
+  justify-content: space-between;
+}
+.accountHeadName div:last-of-type {
+  display: flex;
+  align-items: center;
+}
+.accountHeadName p {
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+.accountHeadName svg {
+  color: #004c84;
+}
+.accountHeadName1 p,
+.accountHeadName1 span {
+  font-size: 0.75rem;
+  color: #737373;
+  margin-bottom: 0.2rem;
+  line-height: 0.9rem;
+}
+.accountHead > p {
+  margin: 0.5rem 0;
+}
+.accountHead > p,
+.accountHeadName1,
+.accountHeadRate {
+  color: #737373;
+  margin-bottom: 0.2rem;
+  font-size: 0.95rem;
+}
+.accountCardBody {
+  height: calc(100% - 15.5rem);
+  overflow-y: auto;
+}
+.accountHeadRate p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.2rem;
+  font-size: 0.95rem;
+}
+.accountCardHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accountCardHead button {
+  border: 0;
+  border-radius: 0.5rem;
+  background-color: #6c757e;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.accountCard {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #c5c7ca;
+}
+.accountCard .row {
+  align-items: center;
+}
+.accountCard .col-3 {
+  color: #cececc;
+}
+.accountCard .col-3 div {
+  border: 1px solid #c5c7ca;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.accountCard .col-3 p {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.accountCard .col-9 p {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  font-weight: 500;
+  line-height: 0.9rem;
+}
+.accountCard .col-9 span {
+  color: #1aa3f4;
+  font-weight: 700;
+  font-size: 0.9rem;
+}

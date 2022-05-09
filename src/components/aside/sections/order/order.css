@@ -1,0 +1,65 @@
+.orderheading {
+  padding: 0.75rem;
+  border-bottom: 1px solid #c5c7ca;
+  display: flex;
+  justify-content: space-between;
+}
+.orderheading div {
+  display: inline-flex;
+  align-items: center;
+  color: #37383c;
+}
+.orderheading div:first-of-type svg {
+  color: #37383c;
+  font-size: 1.75rem;
+  margin-right: 0.5rem;
+}
+.orderheading div:last-of-type svg {
+  color: #1aa3f4;
+  font-size: 1.75rem;
+  margin: 0 0.5rem;
+}
+.orderSearch {
+  padding: 0.75rem;
+}
+.orderBody {
+  height: calc(100% - 7.5rem);
+  overflow-y: auto;
+}
+.orderCard {
+  padding: 0.5rem;
+  border-bottom: 1px solid #c5c7ca;
+  display: flex;
+  justify-content: space-between;
+}
+.orderCard div:first-of-type p {
+  margin-bottom: 0;
+  color: #37383c;
+}
+.orderCard div:first-of-type p:last-of-type {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.orderCard div:first-of-type p svg {
+  font-size: 1.15rem;
+  color: #cececc;
+  margin: 0 0.2rem 0 0.3rem;
+}
+.orderCard div:first-of-type p span {
+  color: #1aa3f4;
+}
+.orderCard div:last-of-type {
+  text-align: right;
+}
+.orderCard div:last-of-type p {
+  margin-bottom: 0;
+  color: #cececc;
+}
+.orderCard div:last-of-type button {
+  font-size: 0.75rem;
+  background-color: #1aa3f4;
+  color: #fff;
+  border: 0;
+  border-radius: 0.5rem;
+}
